@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Place Bootstrap stylesheet before all other stylesheets. -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <style>
+    </style>
+    <title>Bootstrap 10</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-info">navbar navbar-toggleable-sm bg-info</nav>
+
+    <hr>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-item nav-link active">First</a>
+                    <a href="#" class="nav-item nav-link">Second</a>
+                    <a href="#" class="nav-item nav-link">Third</a>
+                    <a href="#" class="nav-item nav-link">Fourth</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <hr>
+
+    <p>Lorem ipsum dolor sit amet <span class="text-info" data-toggle="tooltip" title="tooltip"
+            data-placement="bottom">consectetur
+            adipisicing</span> elit. Rem
+        id laboriosam incidunt, deserunt in eos est
+        repudiandae quo autem optio aspernatur iure, commodi nobis et dolorem quia! Nobis, vitae porro.</p>
+
+    <!-- Place Bootstrap JavaScript right before the closing body tag. First jQuery, second Popper.js, third Bootstrap JavaScript Plugins. -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+    <script>
+        // $(function () {
+        //     $('[data-toggle="tooltip"]').tooltip();
+        // });
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+</body>
+
+</html>
