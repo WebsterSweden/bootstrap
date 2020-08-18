@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Place Bootstrap stylesheet before all other stylesheets. -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <style>
+        div {
+            background-color: lightgray;
+        }
+
+        @media(min-width: 576px) {
+            div {
+                background-color: red;
+            }
+        }
+
+        @media (min-width: 768px) {
+            div {
+                background-color: green;
+            }
+        }
+
+        @media(min-width: 992px) {
+            div {
+                background-color: blue;
+            }
+        }
+
+        @media(min-width: 1200px) {
+            div {
+                background-color: red;
+            }
+        }
+
+    </style>
+    <title>Bootstrap 3</title>
+</head>
+
+<body>
+    <p>576px 768px 992px 1200px</p>
+    <div class="container">Fixed Container</div>
+    <div class="container-fluid">Fluid Container</div>
+
+    <hr>
+
+    <div class="container">container</div>
+    <div class="container-sm">container-sm</div>
+    <div class="container-md">container-md</div>
+    <div class="container-lg">container-lg</div>
+    <div class="container-xl">container-xl</div>
+    <div class="container-fluid">container-fluid</div>
+
+    <!-- Place Bootstrap JavaScript right before the closing body tag. First jQuery, second Popper.js, third Bootstrap JavaScript Plugins. -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
