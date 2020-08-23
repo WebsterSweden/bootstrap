@@ -12,22 +12,48 @@
     <style>
         .col {
             background-color: magenta;
+            border: 10px solid magenta;
             color: white;
+            padding: 12px;
+        }
+
+        .col-1,
+        .col-2,
+        .col-3,
+        .col-4,
+        .col-5,
+        .col-6,
+        .col-7,
+        .col-8,
+        .col-9,
+        .col-10,
+        .col-11,
+        .col-12 {
+            background-color: orange;
+            border: 1px solid black;
+            color: white;
+            padding: 12px;
         }
 
         .container {
             background-color: red;
+            border: 10px solid red;
             color: white;
+            /* padding: 12px; */
         }
 
         .container-fluid {
             background-color: green;
+            border: 10px solid green;
             color: white;
+            /* padding: 12px; */
         }
 
         .row {
             background-color: blue;
+            border: 10px solid blue;
             color: white;
+            /* padding: 12px; */
         }
 
     </style>
@@ -35,6 +61,150 @@
 </head>
 
 <body>
+    <div class="container">
+        container
+        <div class="row">
+            nested row
+            <div class="col">
+                nested col
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container-fluid">
+        container-fluid
+        <div class="row">
+            nested row
+            <div class="col">
+                nested col
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        container
+        <div class="row">
+            row
+            <div class="col-1">
+                col-1
+            </div>
+        </div>
+        <div class="row">
+            row
+            <div class="col-2">
+                col-2
+            </div>
+        </div>
+        <div class="row">
+            row
+            <div class="col-3">
+                col-3
+            </div>
+        </div>
+        <div class="row">
+            row
+            <div class="col-4">
+                col-4
+            </div>
+        </div>
+        <div class="row">
+            row
+            <div class="col-5">
+                col-5
+            </div>
+        </div>
+        <div class="row">
+            row
+            <div class="col-6">
+                col-6
+            </div>
+        </div>
+        <div class="row">
+            row
+            <div class="col-7">
+                col-7
+            </div>
+        </div>
+        <div class="row">
+            row
+            <div class="col-8">
+                col-8
+            </div>
+        </div>
+        <div class="row">
+            row
+            <div class="col-9">
+                col-9
+            </div>
+        </div>
+        <div class="row">
+            row
+            <div class="col-10">
+                col-10
+            </div>
+        </div>
+        <div class="row">
+            row
+            <div class="col-11">
+                col-11
+            </div>
+        </div>
+        <div class="row">
+            row
+            <div class="col-12">
+                col-12
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        container
+        <div class="row">
+            row
+            <div class="col-1">
+                nested col-1
+            </div>
+            <div class="col-2">
+                nested col-2
+            </div>
+            <div class="col-3">
+                nested col-3
+            </div>
+            <div class="col-4">
+                nested col-4
+            </div>
+            <div class="col-5">
+                nested col-5
+            </div>
+            <div class="col-6">
+                nested col-6
+            </div>
+            <div class="col-7">
+                nested col-7
+            </div>
+            <div class="col-8">
+                nested col-8
+            </div>
+            <div class="col-9">
+                nested col-9
+            </div>
+            <div class="col-10">
+                nested col-10
+            </div>
+            <div class="col-11">
+                nested col-11
+            </div>
+            <div class="col-12">
+                nested col-12
+            </div>
+        </div>
+    </div>
 
     <!-- Place Bootstrap JavaScript right before the closing body tag. First jQuery, second Popper.js, third Bootstrap JavaScript Plugins. -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
